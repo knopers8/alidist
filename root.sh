@@ -153,6 +153,8 @@ else
         ${ALIEN_RUNTIME_VERSION:+-Dmonalisa=ON}                                          \
         -Dkrb5=OFF                                                                       \
         -Dgviz=OFF                                                                       \
+        -Dbuiltin_fftw3=ON                                                               \
+        -Dfftw3=ON                                                                       \
         -Dbuiltin_davix=OFF                                                              \
         -Ddavix=OFF                                                                      \
         ${DISABLE_MYSQL:+-Dmysql=OFF}                                                    \
