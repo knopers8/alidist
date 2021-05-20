@@ -1,6 +1,6 @@
 package: QualityControl
 version: "%(tag_basename)s"
-tag: v1.17.0
+tag: its-fix
 requires:
   - boost
   - "GCC-Toolchain:(?!osx)"
@@ -17,7 +17,7 @@ build_requires:
   - CodingGuidelines
   - RapidJSON
   - alibuild-recipe-tools
-source: https://github.com/AliceO2Group/QualityControl
+source: https://github.com/knopers8/QualityControl
 prepend_path:
   ROOT_INCLUDE_PATH: "$QUALITYCONTROL_ROOT/include"
 incremental_recipe: |
